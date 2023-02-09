@@ -11,6 +11,8 @@
 
     <modules>
         <module>cloud-provider-payment8001</module>
+        <module>cloud-consumer-order80</module>
+        <module>cloud-api-commons</module>
     </modules>
 
 
@@ -88,7 +90,7 @@
         </plugins>
     </build>
 
-    <!--第三方maven私服-->
+    <!--third part maven server-->
     <repositories>
         <repository>
             <id>nexus-aliyun</id>

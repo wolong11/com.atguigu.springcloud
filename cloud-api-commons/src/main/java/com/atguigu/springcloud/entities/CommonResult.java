@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author: zhonghua
- * @date: 2/8/2023 12:56 PM
+ * @date: 2/9/2023 10:14 AM
  * @description:
  */
 @Data
@@ -24,3 +24,4 @@ public class CommonResult<T> {
         this(code, message, null);
     }
 }
+
