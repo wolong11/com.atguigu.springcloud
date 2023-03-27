@@ -7,13 +7,13 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @author: zhonghua
- * @date: 2/9/2023 10:17 AM
+ * @date: 2/20/2023 11:19 AM
  * @description:
  */
 @Configuration
 public class ApplicationContextConfig {
     @Bean
-    //@LoadBalanced
+    @LoadBalanced
     public RestTemplate getRestTemplate() {
         return new RestTemplate();
     }

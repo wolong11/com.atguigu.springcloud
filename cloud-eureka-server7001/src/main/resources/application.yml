@@ -7,5 +7,6 @@ eureka:
     register-with-eureka: false # don't regist with eureka server for itself
     fetch-registry: false # don't need to fetch server
     service-url: # set up the client and server interact address
-      defaultZone: http://eureka7002.com:7002/eureka/
+#      defaultZone: http://eureka7002.com:7002/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
 
