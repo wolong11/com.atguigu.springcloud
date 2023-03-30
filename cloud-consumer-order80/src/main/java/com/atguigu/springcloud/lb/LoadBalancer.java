@@ -11,5 +11,5 @@ import java.util.List;
  */
 public interface LoadBalancer {
     ServiceInstance instance(List<ServiceInstance> serviceInstances);
-    
+
 }

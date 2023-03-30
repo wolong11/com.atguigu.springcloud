@@ -82,4 +82,9 @@ public class PaymentController {
         }
         return serverPort;
     }
+
+    @GetMapping("/payment/zipkin")
+    public String paymentZipkin() {
+        return "hello, this is a fallback from payment zipkin!";
+    }
 }
